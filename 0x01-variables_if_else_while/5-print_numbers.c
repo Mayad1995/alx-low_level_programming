@@ -10,11 +10,17 @@
 int main(void)
 {
 int digit = 0;
-while (digit <= 9)
+for (digit = 0; digit < 10; digit++)
 {
-printf("%i".digit);
-digit++;
+putchar('0' + digit);
+
+if (digit != 9)
+{
+putchar(',');
+putchar(' ');
 }
-printf('\n');
+}
+putchar('\n');
+
 return (0);
 }
