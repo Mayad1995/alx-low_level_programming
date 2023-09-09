@@ -3,18 +3,20 @@
 /**
  * main - Entry point
  *
- * Description: print all single digit numbers
+ * Description: print all alphabt letters except q and e
  *
  * Return: Always 0 (success)
 */
 int main(void)
 {
-int digit = 0;
-while (digit <= 9)
+char ch = 'a';
+while (ch <= 'z')
 {
-printf("%i". digit);
-digit++;
+if ( ch == 'e' || ch == 'q')
+ch++;
+putchar(ch);
+ch++;
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
