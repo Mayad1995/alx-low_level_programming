@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main Entry - point
+ * main - Entry point
  *
  * Description: print all alphapet letters
  *
- * Return: o (success)
+ * Return: Always  0 (success)
 */
 
 int main(void)
