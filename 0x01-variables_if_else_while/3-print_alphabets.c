@@ -21,10 +21,10 @@ ch++;
 }
 
 /*print A - Z*/
-while (CH <= 'Z')
+while (Ch <= 'Z')
 {
-putchar (CH);
-CH++;
+putchar (Ch);
+Ch++;
 }
 putchar ('\n');
 
