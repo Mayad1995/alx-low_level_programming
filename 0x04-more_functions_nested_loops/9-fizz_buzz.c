@@ -5,7 +5,7 @@
  * main - Entry point
  *
  * Description: prints the numbers 1 - 100 w/
- * Fizz for multiplies of 3, Buzz for multipliesof 5,
+ * Fizz for multiplies of 3, Buzz for multiplies of 5,
  * and FizzBuzz for multiplies of both
  *
  * Return: Always 0 (Success)
