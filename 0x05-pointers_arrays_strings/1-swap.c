@@ -4,14 +4,15 @@
  * swap_int - swaps the values of two integers
  * @a: integer to swap
  * @b: integer to swap
+ *
+ * Return: Nothing
 */
 
 void swap_int(int *a, int *b)
 {
-int a;
+int temp;
 
-n = *a;
+temp = *a;
 *a = *b;
-*b = n;
-
+*b = temp;
 }
