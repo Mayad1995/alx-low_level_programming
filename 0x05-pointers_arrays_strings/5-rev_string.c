@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
- * rev_string - prints reversed string, followed by a new line
- * @s: input string
- * return: String in reverse
-*/
+ * rev_string - Reverses a string
+ * @s: Input string
+ * Return: String in reverse
+ */
 
 void rev_string(char *s)
 {
-int l, i;
-char temp;
+	char rev = s[0];
+	int counter = 0;
+	int i;
 
-/*find string length without null char*/
-for (l = 0; s[l] != '\0'; ++l)
-;
-
-/*swap the sring by looping to half the sring*/
-for (i = 0; i < 1 / 2; i++)
-{
-temp = s[i];
-s[i] = s[l - 1 - i]; /*-1 because the array starts from 0*/
-s[l - 1 - i] = temp;
-}
+	while (s[counter] != '\0')
+	counter++;
+	for (i = 0; i < counter; i++)
+	{
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
+	}
 }
