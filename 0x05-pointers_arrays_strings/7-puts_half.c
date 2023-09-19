@@ -3,9 +3,10 @@
 /**
  * puts_half - print second half  of a string
  *
- * @str: the array string type
+ * @str: input
  *
- * Description: if odd number of chars, print |length - 1| / 2
+ * Description: if odd len, n = (length_of_the_string - 1) / 2
+ * Return: half of input
 */
 
 void puts_half(char *str)
